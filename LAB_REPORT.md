@@ -39,7 +39,7 @@ kubectl describe deployment nginx-deployment
 
 Создан Deployment с 3 репликами.
 
- ![Pods](pods.png)
+ ![Pods](screenshots/pods.png)
 
  4) Создание Service и доступ:
 -Создание сервиса:
@@ -50,14 +50,14 @@ kubectl describe deployment nginx-deployment
 
 -Скриншот списка сервисов:
 
-![Services](services.png)
+![Services](screenshots/services.png)
 
 -Получение URL:
     minikube service nginx-service --url
 
 -Открытие URL в браузере:
 
-![Nginx](nginx.png)
+![Nginx](screenshots/nginx.png)
 
 5) Масштабирование:
 
